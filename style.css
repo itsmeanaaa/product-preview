@@ -1,0 +1,92 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+  align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+
+.title{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+
+h1{
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+p{
+    line-height: 1.4;
+    font-size: 14px;
+     font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: hsl(228, 12%, 48%);
+    font-size: 13px;
+    line-height: 1.6;
+}
+img{
+    width: 300px;
+    border-radius: 10px;
+    padding-right: 10px;
+}
+.container{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.information{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.per-price{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.currentp{
+      font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+    font-size: 30px;
+    color:hsl(158, 36%, 37%);
+
+}
+.discounted{
+    margin-left: 10px;
+    text-decoration-line: line-through;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    background-image: url(images/icon-cart.svg);
+    background-repeat: no-repeat;
+    background-position: 30px;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color: hsl(158, 42%, 18%);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
